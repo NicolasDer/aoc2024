@@ -1,0 +1,14 @@
+{
+  "name": "AoC2024",
+  "version": "1.0.0",
+  "description": "advent of code 2024 solutions",
+  "main": "index.js",
+  "author": "nico",
+  "license": "MIT",
+  "bin": {
+    "aoc2024": "./index.js"
+  },
+  "dependencies": {
+    "commander": "^13.1.0"
+  }
+}
