@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",            // Allows top-level await and modern ES features
+    "module": "ESNext",            // Use ESNext modules for better compatibility with Node.js
+    "moduleResolution": "bundler",    // Use Node's module resolution
+    "esModuleInterop": true,       // Enables compatibility with CommonJS modules
+    "skipLibCheck": true,          // Skips library type checks for faster compilation
+    "strict": true,                // Enables strict type checking
+    "resolveJsonModule": true,     // Allows importing JSON files
+    "allowJs": true,               // Allows JS files if needed
+    "noEmit": true,                 // Don't emit compiled JS, just use `ts-node`
+    "sourceMap": true,
+    "inlineSources": true
+
+  },
+  "include": ["src/**/*.ts"],       // Include TypeScript files in the `src` directory
+  "exclude": ["node_modules"]       // Exclude `node_modules` directory from TypeScript compilation
+}
