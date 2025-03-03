@@ -12,6 +12,8 @@ program
         mainFunction  = (await import('./solutions/day05.js')).day05main;
       } else if (number === 6) {
         mainFunction = (await import('./solutions/day06.js')).day06main;
+      } else if (number === 7) {
+        mainFunction = (await import('./solutions/day07.js')).day07main;
       } else {
         console.log('Invalid number.');
         return;
