@@ -18,6 +18,8 @@ program
         mainFunction = (await import('./solutions/day08.js')).day08main;
       }else if (number === 9) {
         mainFunction = (await import('./solutions/day09.js')).day09main;
+      }else if (number === 10) {
+        mainFunction = (await import('./solutions/day10.js')).day10main;
       } else {
         console.log('Invalid number.');
         return;
