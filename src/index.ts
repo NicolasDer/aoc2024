@@ -20,6 +20,8 @@ program
         mainFunction = (await import('./solutions/day09.js')).day09main;
       }else if (number === 10) {
         mainFunction = (await import('./solutions/day10.js')).day10main;
+      }else if (number === 11) {
+        mainFunction = (await import('./solutions/day11.js')).day11main;
       } else {
         console.log('Invalid number.');
         return;
