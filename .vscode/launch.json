@@ -7,7 +7,7 @@
         "name": "Debug with TSX",
         "runtimeArgs": ["--import", "tsx"],
         "program": "${workspaceFolder}/src/index.ts",
-        "args": ["14"],
+        "args": ["15"],
         "outFiles": ["${workspaceFolder}/src/**/*.ts"],
         "skipFiles": ["<node_internals>/**"],
         "console": "integratedTerminal"
