@@ -32,6 +32,8 @@ program
         mainFunction = (await import('./solutions/day15.js')).day15main;
       } else if (number === 16) {
         mainFunction = (await import('./solutions/day16.js')).day16main;
+      } else if (number === 17) {
+        mainFunction = (await import('./solutions/day17.js')).day17main;
       } else {
         console.log('Invalid number.');
         return;
